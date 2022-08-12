@@ -22,14 +22,14 @@ This application simulates cinema's ticket-reservation system and has next funct
 [GET]    /shopping-carts/by-user - returns shopping cart of logged user
 [GET]    /users/by-email - returns user by email
 ```
-##Project architecture
+## Project architecture
 * DAO - Data access layer
 * Service - Application layer
 * Model - Presentation layer
 ## Database structure
 ![Diagram](https://user-images.githubusercontent.com/99022808/184330308-e993e9d2-e28d-4cc8-b454-3cb3fadfed1a.png)
 
-## Technologies used in project
+## Technologies 
 * Java 11
 * Hibernate
 * Spring (Core, Web, Security)
@@ -37,3 +37,15 @@ This application simulates cinema's ticket-reservation system and has next funct
 * Apache TomCat 
 * Maven
 ## Setup
+1. Fork this project.
+2. Install and Configure Apache Tomcat 9.
+    * Use cinema_project:war exploded.
+    * Leave @Application contex@ : "/".
+3. Install MySQL 
+4. Setup database parameters in 'resources/db.properties'
+5. Run project
+6. To log in as admin use:
+    * email: admin@i.ua
+    * password: admin123
+7. Use [Postman](https://web.postman.co/) or any other Software to send HTTP-requests and receive HTTP-responses
+8. To register new user send [POST] request to /register with body
