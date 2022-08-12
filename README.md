@@ -1,5 +1,6 @@
 ﻿# :ticket:Cinema Project:ticket:
-![prix-europa-cinemas-2018](https://user-images.githubusercontent.com/99022808/184299838-fded81cc-38a6-46f5-8065-9a70d46a495e.jpeg)
+![Teaser-Cinema-1200-500](https://user-images.githubusercontent.com/99022808/184300373-2fe103f0-a288-495e-842f-422c3082e160.jpg)
+# Description
 This application simulates cinema's ticket-reservation system and has next functions:
 * Register a new user
 * Login
