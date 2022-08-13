@@ -25,7 +25,7 @@ This application simulates cinema's ticket-reservation system and has next funct
 ## Project architecture
 * DAO - Data access layer
 * Service - Application layer
-* Model - Presentation layer
+* Controller - Presentation layer
 ## Database structure
 ![Diagram](https://user-images.githubusercontent.com/99022808/184330308-e993e9d2-e28d-4cc8-b454-3cb3fadfed1a.png)
 
